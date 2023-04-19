@@ -46,7 +46,7 @@ public class AuditConfiguration {
     public SpringAudit4jConfig springAudit4jConfig() {
         SpringAudit4jConfig audit4jConfig = new SpringAudit4jConfig();
         Map<String, String> props = new HashMap<>();
-        props.put("log.file.location", "./SPproject/src/main/java/com/sp/SPproject/logs");
+        props.put("log.file.location", ".");
         List<Handler> handlers = new ArrayList<>();
         handlers.add(consoleAuditHandler());
         handlers.add(fileAuditHandler());

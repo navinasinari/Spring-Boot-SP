@@ -16,7 +16,7 @@ public class PhonebookService {
 
     @Autowired
     PhonebookRepository phonebookRepository;
-    @Audit(action = "PhoneBookService.addPhonebook")
+    @Audit(action = "Added a phonebook")
     public ResponseEntity<String> addPhonebook(@AuditField(field = "phoneBook") Phonebook phonebook){
         String patternNumber =
                 "^((\\+[1-9]{1,2}\\s?)|(\\d{1,3}\\s?))?(\\d)?[\\s.-]?\\(?[1-9][0-9]?[0-9]\\)?[\\s.-]?\\d{3}[\\s.-]\\d{4}$"
@@ -40,14 +40,14 @@ public class PhonebookService {
         return new ResponseEntity<>("Message: Success", HttpStatus.OK);
     }
 
-    @Audit(action = "PhoneBookService.getPhonebookList")
+    @Audit(action = "Fetched phonebook list")
     public List<Phonebook> getPhonebookList(){
         List<Phonebook> phonebookList = new ArrayList<Phonebook>();
         phonebookRepository.findAll().forEach(phonebookList::add);
         return phonebookList;
     }
 
-    @Audit(action = "PhoneBookService.deleteByName")
+    @Audit(action = "Deleted by name")
     public ResponseEntity<String> deleteByName(@AuditField(field = "name") String name){
         try{
             String patternName = "^(\\s?[a-zA-Z]+[-,']?\\s?[a-zA-Z].?){1,3}";
@@ -67,7 +67,7 @@ public class PhonebookService {
         }
     }
 
-    @Audit(action = "PhoneBookService.deleteByNumber")
+    @Audit(action = "Deleted by phone number")
     public ResponseEntity<String> deleteByNumber(@AuditField(field = "phoneNumber") String phoneNumber){
         try{
             String patternNumber =
