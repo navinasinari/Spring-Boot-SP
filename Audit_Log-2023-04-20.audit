@@ -1,0 +1,12 @@
+04/20/2023 00:30:41|-3936721457396823999|anonymous|172.17.0.1|User authentication==>
+04/20/2023 00:30:42|8675957847089497244|navina|172.17.0.1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:John O'Malley-Smith,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:123 456 7899,
+04/20/2023 00:32:02|-6501908525526726908|anonymous|172.17.0.1|User authentication==>
+04/20/2023 00:32:02|4912550753887470658|navina|172.17.0.1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:O'Malley, John F.,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:70 31 11 12 34,
+04/20/2023 00:39:10|-9051309297339645318|anonymous|172.17.0.1|User authentication==>
+04/20/2023 00:39:10|-2360790844049242364|navina|172.17.0.1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:O'Malley, John F.,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:70 31 11 12 34,
+04/20/2023 00:39:16|125567550304763935|anonymous|172.17.0.1|User authentication==>
+04/20/2023 00:39:16|-5991069812911552775|navina|172.17.0.1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:Schneier, Bruce Wayne,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:011 1 703 111 1234,
+04/20/2023 18:06:23|-1570159341471184321|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 18:06:25|-5144965036015268631|navina|0:0:0:0:0:0:0:1|Fetched phonebook list==>
+04/20/2023 18:06:32|-7153250891121868197|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 18:06:32|-8386409409474640806|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:John O'Malley-Smith,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:123 456 7899,
