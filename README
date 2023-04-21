@@ -1,0 +1,32 @@
+Instructions to run docker:
+docker build . --tag=sp_project:latest
+docker run -p8080:8080 sp_project:latest
+
+The above steps will run the application on port 8080, hence we will run our postman collection on localhost:8080 which I have added in the URL for all APIs.
+
+Instructions to run Postman collection:
+Import ‘SP Project.postman_collection’ in Postman.
+Run collection.
+
+The authentication API execution is written in the pre-request scripts in postman for each api and the authentication token is passed in the bearer token field by an environment variable ‘ACCESS_TOKEN’.
+
+Instructions to view the audit log:
+We need to find the container ID where our application is running on docker by running the following command:
+docker ps
+Once we have the container ID, we will use it in the next command to copy the audit log to the personal directory path which would be the destination path. The audit log will be stored with the following filename:- Audit_Log-yyyy-mm-dd.audit, where the date format will be in UTC. Running the following command we can view the audit log.
+docker cp <containerID>:./Audit_Log-yyyy-mm-dd.audit ./destination_path
+
+In case the above copy steps do not work out, we can perform the below steps to view it in the terminal.
+docker exec <containerID> ls
+docker exec <containerID> cat Audit_Log-yyyy-mm-dd.audit
+
+Database used in the project:
+The project uses an in-memory database H2. To view the database we need to run ‘localhost:8080/h2-ui/login.jsp’ in the browser.
+
+Database connectivity information is written in ‘application.properties’ file in the resources folder.
+
+Hardcoded user for authentication:
+{
+	Username: ‘navina’,
+	Password: ‘password’
+}
