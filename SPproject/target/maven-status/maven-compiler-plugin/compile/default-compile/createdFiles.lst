@@ -1,9 +1,11 @@
 com\sp\SPproject\service\UserAuthenticationDetailsService.class
+com\sp\SPproject\repository\UserRepository.class
 com\sp\SPproject\configuration\UserAuthenticationEntryPoint.class
 com\sp\SPproject\SPprojectApplication.class
 com\sp\SPproject\repository\PhonebookRepository.class
 com\sp\SPproject\api\controller\UserAuthenticationController.class
 com\sp\SPproject\api\model\UserRequest.class
+com\sp\SPproject\api\model\User.class
 com\sp\SPproject\configuration\SecurityConfig.class
 com\sp\SPproject\configuration\audit\AuditConfiguration.class
 com\sp\SPproject\api\controller\PhonebookController.class
