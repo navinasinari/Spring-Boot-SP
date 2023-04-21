@@ -12,3 +12,122 @@
 04/20/2023 18:06:32|-8386409409474640806|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:John O'Malley-Smith,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:123 456 7899,
 04/20/2023 21:39:41|-87064367003644660|anonymous|0:0:0:0:0:0:0:1|User authentication==>
 04/20/2023 21:39:42|-2748499537694997623|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:John O'Malley-Smith,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:123 456 7899,
+04/20/2023 21:47:26|5992934081463864226|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:47:27|-7366585556443314270|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:John O'Malley-Smith,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:123 456 7899,
+04/20/2023 21:47:35|6077110805428063094|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:47:35|-7342880616006794160|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:Ron O''Henry,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:011 1 703 111 1234,
+04/20/2023 21:47:51|4945026630312348724|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:47:51|-6314945356241157687|navina|0:0:0:0:0:0:0:1|Deleted by phone number==>phoneNumber java.lang.String:123 456 7899,
+04/20/2023 21:48:05|8644957666911014374|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:05|2914717531634944048|navina|0:0:0:0:0:0:0:1|Deleted by phone number==>phoneNumber java.lang.String:70 22 11 12 34,
+04/20/2023 21:48:16|-8427904762018706087|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:16|5962136521338866167|navina|0:0:0:0:0:0:0:1|Deleted by phone number==>phoneNumber java.lang.String:7022111234,
+04/20/2023 21:48:39|-100927770725299978|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:39|614413649269834779|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:40|6055413662392011475|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:40|7063809339354006581|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:40|1048264791623419216|navina|0:0:0:0:0:0:0:1|Fetched phonebook list==>
+04/20/2023 21:48:40|6229180495081261515|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:41|-7129134620109028148|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:41|8272231305981414987|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:41|-6220906854998062874|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:John O'Malley-Smith,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:123 456 7899,
+04/20/2023 21:48:41|7653145665704051052|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:41|-6178883785610473835|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:O'Malley, John F.,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:70 31 11 12 34,
+04/20/2023 21:48:41|-3722771610787689799|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:42|-2073070555259581994|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:Schneier, Bruce Wayne,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:011 1 703 111 1234,
+04/20/2023 21:48:42|-7487781481584244491|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:42|4904301325366346584|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:Adam Sands,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:+1(703)111-2121,
+04/20/2023 21:48:42|191805549687423255|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:42|-5983533085822596665|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:Mona,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:123.456.7890,
+04/20/2023 21:48:42|8138885183711232665|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:42|-2705926464815935805|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:Cooper, Sara,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:12223.44456,
+04/20/2023 21:48:43|-7848112081847303575|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:43|-7671236372938930595|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:Cher,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:12345,
+04/20/2023 21:48:43|-7132133599180930710|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:43|-1793503791915381682|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:Arjun Suvarna,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:+32 (21) 212 2324,
+04/20/2023 21:48:43|-3404560942966159564|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:43|-2298986415495035215|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:Tara Singh,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:011 1 703 111 1234,
+04/20/2023 21:48:44|-3497189900197019042|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:44|6826648595868174789|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:Elle McBroom,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:782-556-3425,
+04/20/2023 21:48:44|4537993474194031015|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:44|7628730012553070947|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:Allaya Maria McBroom,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:1(670)123-4567,
+04/20/2023 21:48:44|-5332875507670496839|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:44|2465136077501121940|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:McBroom,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:670.123.4567,
+04/20/2023 21:48:44|4969095258093210048|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:45|-8329571476414971265|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:Allan,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:1.670.123.4567,
+04/20/2023 21:48:45|7731075835959265916|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:45|9167980830378314642|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:Maria McBroom,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:1-670-123-4567,
+04/20/2023 21:48:45|2793432507692305458|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:45|-7696339987883079416|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:Ron O''Henry,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:011 1 703 111 1234,
+04/20/2023 21:48:45|-9196493431714525683|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:45|1148937071598125519|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:L33t Hacker,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:1 787 909 1234,
+04/20/2023 21:48:45|6354121793180225325|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:46|2347356276858375783|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:Ron O'Henry-Smith-Barnes,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:12345 61234,
+04/20/2023 21:48:46|-6519042331657616132|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:46|2273118563033173096|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:<script>alert("XSS")</script>,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:011 1 703 111 1234,
+04/20/2023 21:48:46|-5632590199999148425|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:47|-3622189469138729846|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:Brad Everett Samuel Smith,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:011 1 703 111 1234,
+04/20/2023 21:48:47|2889566389955215649|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:47|1846444554050750723|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:select * from users;,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:011 1 703 111 1234,
+04/20/2023 21:48:47|5024512394761160922|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:47|-400879966334663134|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:Mona,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:(001) 123-1234,
+04/20/2023 21:48:47|8407142755786640668|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:47|-7204369892615372285|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:Sam,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:+01 (703) 123-1234,
+04/20/2023 21:48:47|1005452675279440007|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:47|525853048658018320|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:Sam,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:123,
+04/20/2023 21:48:47|8311638654785767069|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:48|-5153738499988110833|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:Sam,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:<script>alert("XSS")</script>,
+04/20/2023 21:48:48|-2964333890634693202|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:48|-7034965104290873076|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:Sam,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:+1234 (201) 123-1234,
+04/20/2023 21:48:48|7109569306879804918|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:48|-3744438562459598492|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:Sam,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:(703) 123-1234 ext 204,
+04/20/2023 21:48:49|-3577769857271379495|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:49|1739173161802417631|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:Sam,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:1/703/123/1234,
+04/20/2023 21:48:49|-5903401390940205814|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:49|-2368297523587889504|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:Sam,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:Nr 102-123-1234,
+04/20/2023 21:48:49|-3062060268990215234|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:49|-3665459258662893159|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:Sam,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:7031111234,
+04/20/2023 21:48:49|-5299915277352353202|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:58|-2249953395247920666|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:48:58|2440375028067682569|navina|0:0:0:0:0:0:0:1|Deleted by phone number==>phoneNumber java.lang.String:123 456 7899,
+04/20/2023 21:48:59|-6653430282266654248|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:49:00|7118093075911689787|navina|0:0:0:0:0:0:0:1|Deleted by phone number==>phoneNumber java.lang.String:70 31 11 12 34,
+04/20/2023 21:49:00|-1599731493186877329|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:49:00|-9204079575097586704|navina|0:0:0:0:0:0:0:1|Deleted by phone number==>phoneNumber java.lang.String:+1(703)111-2121,
+04/20/2023 21:49:01|797298936418615835|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:49:01|-90828124558963053|navina|0:0:0:0:0:0:0:1|Deleted by phone number==>phoneNumber java.lang.String:70 22 11 12 34,
+04/20/2023 21:49:01|-5671813064780199332|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:49:01|-2253726403274389945|navina|0:0:0:0:0:0:0:1|Deleted by phone number==>phoneNumber java.lang.String:12336,
+04/20/2023 21:49:01|-5965101907347093944|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:49:01|6812105691765490028|navina|0:0:0:0:0:0:0:1|Deleted by phone number==>phoneNumber java.lang.String:7022111234,
+04/20/2023 21:49:01|5176269912413783885|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:49:02|3184653602653226349|navina|0:0:0:0:0:0:0:1|Deleted by phone number==>phoneNumber java.lang.String:<script>,
+04/20/2023 21:49:02|5243355058545641128|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:49:02|-4573131236655477078|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:49:02|-5468620316707175374|navina|0:0:0:0:0:0:0:1|Deleted by name==>name java.lang.String:Cher,
+04/20/2023 21:49:02|991983401429257114|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:49:03|1197030753420722876|navina|0:0:0:0:0:0:0:1|Deleted by name==>name java.lang.String:Mona,
+04/20/2023 21:49:03|1513428139783309951|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:49:03|7207325347357674205|navina|0:0:0:0:0:0:0:1|Deleted by name==>name java.lang.String:Cooper, Sara,
+04/20/2023 21:49:03|7247483589331010416|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:49:03|2533851165716595853|navina|0:0:0:0:0:0:0:1|Deleted by name==>name java.lang.String:Cooper, Tara,
+04/20/2023 21:49:03|-273267264234436333|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:49:03|-2274567613584226385|navina|0:0:0:0:0:0:0:1|Deleted by name==>name java.lang.String:Cooper,
+04/20/2023 21:49:03|367591581259614137|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:49:04|-6468135112404612769|navina|0:0:0:0:0:0:0:1|Deleted by name==>name java.lang.String:Cooper23,
+04/20/2023 21:49:04|215838969583715392|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 21:49:04|-4225698065642730649|navina|0:0:0:0:0:0:0:1|Deleted by name==>name java.lang.String:<script></script>,
+04/20/2023 22:07:33|3282147508173753172|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 22:07:59|-4422458153179068930|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 22:08:25|8698064079304213108|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 22:08:50|5687680289984957079|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 22:10:04|3959289776925394399|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 22:10:05|4798915362161118411|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:John O'Malley-Smith,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:123 456 7899,
+04/20/2023 22:10:10|5879850647847587672|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 22:10:10|8759819249849945946|navina|0:0:0:0:0:0:0:1|Added a phonebook==>phoneBook$com.sp.SPproject.api.model.Phonebook$name java.lang.String:Ron O''Henry,phoneBook$com.sp.SPproject.api.model.Phonebook$phoneNumber java.lang.String:011 1 703 111 1234,
+04/20/2023 22:10:20|-923118764768735454|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 22:10:20|496393067711120948|navina|0:0:0:0:0:0:0:1|Deleted by name==>name java.lang.String:Cher,
+04/20/2023 22:10:30|8231120442979667961|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 22:10:30|-9140809958016072364|navina|0:0:0:0:0:0:0:1|Deleted by name==>name java.lang.String:Cooper, Tara,
+04/20/2023 22:10:37|2086023086469039722|anonymous|0:0:0:0:0:0:0:1|User authentication==>
+04/20/2023 22:10:38|5696720287278909462|navina|0:0:0:0:0:0:0:1|Deleted by name==>name java.lang.String:Cooper23,

@@ -30,7 +30,7 @@ public class PhonebookService {
                 +"|^\\+?\\d{2}\\s\\d{2}\\s\\d{2}\\s\\d{2}\\s?(\\d{2})?\\s?$";
         Pattern match = Pattern.compile(patternNumber);
 
-        String patternName = "^(\\s?[a-zA-Z]+[-,']?\\s?[a-zA-Z].?){1,3}";
+        String patternName = "^(\\s?[a-zA-Z]+[-,']?\\s?[a-zA-Z].?){1,3}$";
         Pattern matchName = Pattern.compile(patternName);
         if(match.matcher(phonebook.getPhoneNumber()).matches() && matchName.matcher(phonebook.getName()).matches()) {
             try {
@@ -50,7 +50,7 @@ public class PhonebookService {
 
     @Audit(action = "Fetched phonebook list")
     public List<Phonebook> getPhonebookList(){
-        List<Phonebook> phonebookList = new ArrayList<Phonebook>();
+        List<Phonebook> phonebookList = new ArrayList<>();
         phonebookRepository.findAll().forEach(phonebookList::add);
         return phonebookList;
     }
