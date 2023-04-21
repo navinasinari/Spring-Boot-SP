@@ -34,6 +34,19 @@ public class PhonebookService {
         Pattern matchName = Pattern.compile(patternName);
         if(match.matcher(phonebook.getPhoneNumber()).matches() && matchName.matcher(phonebook.getName()).matches()) {
             try {
+                Phonebook checkPhonebookName = phonebookRepository.findByName(phonebook.getName());
+                Phonebook checkPhonebookNumber = phonebookRepository.findByPhoneNumber((phonebook.getPhoneNumber()));
+                if(checkPhonebookNumber != null) {
+                    resp.put("Status", "400");
+                    resp.put("Message", "Number already exists");
+                    return new ResponseEntity<>(resp, HttpStatus.BAD_REQUEST);
+                }
+                if(checkPhonebookName != null) {
+                    resp.put("Status", "400");
+                    resp.put("Message", "Name already exists");
+                    return new ResponseEntity<>(resp, HttpStatus.BAD_REQUEST);
+                }
+
                 Phonebook _phonebook = phonebookRepository.save(phonebook);
             } catch (Exception e) {
                 return new ResponseEntity<>("Message: Error", HttpStatus.INTERNAL_SERVER_ERROR);
