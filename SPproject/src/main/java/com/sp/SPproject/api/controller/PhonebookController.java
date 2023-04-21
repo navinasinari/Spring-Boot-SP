@@ -19,17 +19,17 @@ public class PhonebookController {
     }
 
     @PostMapping("/add")
-    public ResponseEntity<String> addPhoneBook(@RequestBody Phonebook phonebook){
+    public ResponseEntity<?> addPhoneBook(@RequestBody Phonebook phonebook){
         return this.phonebookService.addPhonebook(phonebook);
     }
 
     @PutMapping("/deleteByName")
-    public ResponseEntity<String> deleteByName(@RequestParam String name){
+    public ResponseEntity<?> deleteByName(@RequestParam String name){
         return this.phonebookService.deleteByName(name);
     }
 
     @PutMapping("/deleteByNumber")
-    public ResponseEntity<String> deleteByNumber(@RequestParam String phoneNumber){
+    public ResponseEntity<?> deleteByNumber(@RequestParam String phoneNumber){
         return this.phonebookService.deleteByNumber(phoneNumber);
     }
 }

@@ -8,7 +8,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import com.sp.SPproject.api.model.Phonebook;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.regex.Pattern;
 
 @Service
@@ -17,7 +19,9 @@ public class PhonebookService {
     @Autowired
     PhonebookRepository phonebookRepository;
     @Audit(action = "Added a phonebook")
-    public ResponseEntity<String> addPhonebook(@AuditField(field = "phoneBook") Phonebook phonebook){
+    public ResponseEntity<?> addPhonebook(@AuditField(field = "phoneBook") Phonebook phonebook){
+        Map<String, String> resp = new HashMap<>();
+
         String patternNumber =
                 "^((\\+[1-9]{1,2}\\s?)|(\\d{1,3}\\s?))?(\\d)?[\\s.-]?\\(?[1-9][0-9]?[0-9]\\)?[\\s.-]?\\d{3}[\\s.-]\\d{4}$"
                 +"|^\\d{5}[\\s.]\\d{5}$"
@@ -35,9 +39,13 @@ public class PhonebookService {
                 return new ResponseEntity<>("Message: Error", HttpStatus.INTERNAL_SERVER_ERROR);
             }
         } else {
-            return new ResponseEntity<>("Message: Invalid Input", HttpStatus.BAD_REQUEST);
+            resp.put("Status", "400");
+            resp.put("Message", "Invalid Input");
+            return new ResponseEntity<>(resp, HttpStatus.BAD_REQUEST);
         }
-        return new ResponseEntity<>("Message: Success", HttpStatus.OK);
+        resp.put("Status", "200");
+        resp.put("Message", "Success");
+        return new ResponseEntity<>(resp, HttpStatus.OK);
     }
 
     @Audit(action = "Fetched phonebook list")
@@ -48,7 +56,9 @@ public class PhonebookService {
     }
 
     @Audit(action = "Deleted by name")
-    public ResponseEntity<String> deleteByName(@AuditField(field = "name") String name){
+    public ResponseEntity<?> deleteByName(@AuditField(field = "name") String name){
+        Map<String, String> resp = new HashMap<>();
+
         try{
             String patternName = "^(\\s?[a-zA-Z]+[-,']?\\s?[a-zA-Z].?){1,3}";
             Pattern matchName = Pattern.compile(patternName);
@@ -57,19 +67,27 @@ public class PhonebookService {
                 Phonebook ph = phonebookRepository.findByName(name);
                 if(ph!=null){
                     phonebookRepository.delete(ph);
-                    return new ResponseEntity<>("Message: Success", HttpStatus.OK);
+                    resp.put("Status", "200");
+                    resp.put("Message", "Success");
+                    return new ResponseEntity<>(resp, HttpStatus.OK);
                 }
-                return new ResponseEntity<>("Message: Not Found", HttpStatus.NOT_FOUND);
+                resp.put("Status", "404");
+                resp.put("Message", "Not Found");
+                return new ResponseEntity<>(resp, HttpStatus.NOT_FOUND);
             }
-            return new ResponseEntity<>("Message: Invalid Input", HttpStatus.BAD_REQUEST);
+            resp.put("Status", "400");
+            resp.put("Message", "Invalid Input");
+            return new ResponseEntity<>(resp, HttpStatus.BAD_REQUEST);
         } catch (Exception e){
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
 
     @Audit(action = "Deleted by phone number")
-    public ResponseEntity<String> deleteByNumber(@AuditField(field = "phoneNumber") String phoneNumber){
+    public ResponseEntity<?> deleteByNumber(@AuditField(field = "phoneNumber") String phoneNumber){
         try{
+            Map<String, String> resp = new HashMap<>();
+
             String patternNumber =
                     "^((\\+[1-9]{1,2}\\s?)|(\\d{1,3}\\s?))?(\\d)?\\s?\\(?[1-9][0-9]?[0-9]\\)?[\\s.-]?\\d{3}[\\s.-]\\d{4}$"
                     +"|^\\d{5}[\\s.]\\d{5}$"
@@ -82,11 +100,17 @@ public class PhonebookService {
                 Phonebook ph = phonebookRepository.findByPhoneNumber(phoneNumber);
                 if(ph!=null){
                     phonebookRepository.delete(ph);
-                    return new ResponseEntity<>("Message: Success", HttpStatus.OK);
+                    resp.put("Status", "200");
+                    resp.put("Message", "Success");
+                    return new ResponseEntity<>(resp, HttpStatus.OK);
                 }
-                return new ResponseEntity<>("Message: Not Found", HttpStatus.NOT_FOUND);
+                resp.put("Status", "404");
+                resp.put("Message", "Not Found");
+                return new ResponseEntity<>(resp, HttpStatus.NOT_FOUND);
             }
-            return new ResponseEntity<>("Message: Invalid Input", HttpStatus.BAD_REQUEST);
+            resp.put("Status", "400");
+            resp.put("Message", "Invalid Input");
+            return new ResponseEntity<>(resp, HttpStatus.BAD_REQUEST);
         } catch (Exception e){
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
